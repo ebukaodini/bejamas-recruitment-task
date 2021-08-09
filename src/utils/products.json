@@ -1,0 +1,477 @@
+[
+  {
+    "name": "Woman Slicing Gourd",
+    "category": "Lifestyle",
+    "price": 101,
+    "currency": "USD",
+    "image": {
+      "src": "/1153369/pexels-photo-1153369.jpeg",
+      "alt": "Woman Slicing Gourd"
+    },
+    "bestseller": false,
+    "featured": true,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": [
+        {
+          "src": "/6582569/pexels-photo-6582569.jpeg",
+          "alt": "A Woman Doing Aerial Yoga"
+        },
+        {
+          "src": "/164634/pexels-photo-164634.jpeg",
+          "alt": "Mercedes Benz Parked in a Row"
+        },
+        {
+          "src": "/1450363/pexels-photo-1450363.jpeg",
+          "alt": "House on Body of Water"
+        }
+      ]
+    }
+  },
+  {
+    "name": "A Woman Doing Aerial Yoga",
+    "category": "Lifestyle",
+    "price": 101,
+    "currency": "USD",
+    "image": {
+      "src": "/6582569/pexels-photo-6582569.jpeg",
+      "alt": "A Woman Doing Aerial Yoga"
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Mercedes Benz Parked in a Row",
+    "category": "Luxury",
+    "price": 3.89,
+    "currency": "USD",
+    "image": {
+      "src": "/164634/pexels-photo-164634.jpeg",
+      "alt": "Mercedes Benz Parked in a Row"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "House on Body of Water",
+    "category": "Luxury",
+    "price": 3.89,
+    "currency": "USD",
+    "image": {
+      "src": "/1450363/pexels-photo-1450363.jpeg",
+      "alt": "House on Body of Water"
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Four Assorted Perfume Glass Bottles",
+    "category": "Luxury",
+    "price": 93.89,
+    "currency": "USD",
+    "image": {
+      "src": "/965989/pexels-photo-965989.jpeg",
+      "alt": "Four Assorted PerfumeGlass Bottles "
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Train With Smoke",
+    "category": "Travel",
+    "price": 100,
+    "currency": "USD",
+    "image": {
+      "src": "/507410/pexels-photo-507410.jpeg",
+      "alt": "Train With Smoke"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Orange Lighthouse",
+    "category": "Travel",
+    "price": 100,
+    "currency": "USD",
+    "image": {
+      "src": "/1660995/pexels-photo-1660995.jpeg",
+      "alt": "Orange Lighthouse"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Canal Beside Houses",
+    "category": "Travel",
+    "price": 100,
+    "currency": "USD",
+    "image": {
+      "src": "/2901209/pexels-photo-2901209.jpeg",
+      "alt": "Canal Beside Houses"
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Photo of Coconut Trees On Seashore",
+    "category": "Travel",
+    "price": 250,
+    "currency": "USD",
+    "image": {
+      "src": "/1591373/pexels-photo-1591373.jpeg",
+      "alt": "Photo of Coconut Trees On Seashore"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Aurora Borealis",
+    "category": "Nature",
+    "price": 300,
+    "currency": "USD",
+    "image": {
+      "src": "/624015/pexels-photo-624015.jpeg",
+      "alt": "Aurora Borealis"
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Dolphins in Water",
+    "category": "Nature",
+    "price": 300,
+    "currency": "USD",
+    "image": {
+      "src": "/2922672/pexels-photo-2922672.jpeg",
+      "alt": "Dolphins in Water"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Apricot Fruits on Bowl",
+    "category": "Health",
+    "price": 89.89,
+    "currency": "USD",
+    "image": {
+      "src": "/1028599/pexels-photo-1028599.jpeg",
+      "alt": "Apricot Fruits on Bowl"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Photo of Woman Sitting Near Paperbag",
+    "category": "Fashion",
+    "price": 89.89,
+    "currency": "USD",
+    "image": {
+      "src": "/1006994/pexels-photo-1006994.jpeg",
+      "alt": "Photo of Woman Sitting Near Paperbag"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Mother and Children on a Sofa",
+    "category": "Life",
+    "price": 50,
+    "currency": "USD",
+    "image": {
+      "src": "/4262185/pexels-photo-4262185.jpeg",
+      "alt": "Mother and Children on a Sofa"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Photo of Two Men Lying Down",
+    "category": "Life",
+    "price": 35.29,
+    "currency": "USD",
+    "image": {
+      "src": "/2725458/pexels-photo-2725458.jpeg",
+      "alt": "Photo of Two Men Lying Down"
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Person Holding Baby's Feet",
+    "category": "Family",
+    "price": 35.29,
+    "currency": "USD",
+    "image": {
+      "src": "/2456327/pexels-photo-2456327.jpeg",
+      "alt": "Person Holding Baby's Feet"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Group of People Holding Arms",
+    "category": "Family",
+    "price": 70,
+    "currency": "USD",
+    "image": {
+      "src": "/461049/pexels-photo-461049.jpeg",
+      "alt": "Group of People Holding Arms"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Mother and Daughter on Grass",
+    "category": "Family",
+    "price": 70,
+    "currency": "USD",
+    "image": {
+      "src": "/1683975/pexels-photo-1683975.jpeg",
+      "alt": "Mother and Daughter on Grass"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Brown Wooden Center Table",
+    "category": "Home",
+    "price": 70,
+    "currency": "USD",
+    "image": {
+      "src": "/584399/living-room-couch-interior-room-584399.jpeg",
+      "alt": "Brown Wooden Center Table"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Topless Man Lying on Bed",
+    "category": "Home",
+    "price": 70,
+    "currency": "USD",
+    "image": {
+      "src": "/4746698/pexels-photo-4746698.jpeg",
+      "alt": "Topless Man Lying on Bed"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Black Home Area Rug",
+    "category": "Home",
+    "price": 100,
+    "currency": "USD",
+    "image": {
+      "src": "/2950003/pexels-photo-2950003.jpeg",
+      "alt": "Black Home Area Rug"
+    },
+    "bestseller": true,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  },
+  {
+    "name": "Kitchen Island",
+    "category": "Home",
+    "price": 250,
+    "currency": "USD",
+    "image": {
+      "src": "/2089698/pexels-photo-2089698.jpeg",
+      "alt": "Kitchen Island"
+    },
+    "bestseller": false,
+    "featured": false,
+    "details": {
+      "dimmentions": {
+        "width": 5098,
+        "height": 3399
+      },
+      "size": 9072,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "recommendations": null
+    }
+  }
+]

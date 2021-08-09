@@ -1,0 +1,44 @@
+@import "../../../assets/style/base";
+
+@media (min-width: 0px) {
+  section.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+    div.pages {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      button.nav {
+        border: none;
+        background-color: transparent;
+        color: $primary;
+        padding: 10px 10px;
+        margin: 0px 15px !important;
+      }
+
+      ul.pagelist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+          list-style: none;
+          font-size: $h3;
+          margin: 0px 15px !important;
+          color: $secondary;
+          font-weight: normal;
+
+          &.active {
+            font-weight: bold;
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}

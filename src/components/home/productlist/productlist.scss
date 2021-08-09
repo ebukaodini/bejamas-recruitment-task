@@ -1,0 +1,181 @@
+@import "../../../assets/style/base";
+
+@media (max-width: 425px) {
+  div.productlist {
+    div.list {
+      display: flex;
+      justify-content: safe;
+      flex-wrap: wrap;
+      margin-bottom: 78px;
+
+      div.item {
+        margin-bottom: 40px;
+
+        div.image {
+          height: 500px;
+          width: 100%;
+          position: relative;
+          margin-bottom: 15px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            height: 100%;
+            width: auto;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+          }
+
+          div.bestseller {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 160px;
+            height: 37px;
+            background-color: $white;
+            color: $primary;
+            font-size: $h5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          button.addToCart {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            border: none;
+            background-color: $primary;
+            color: $white;
+            padding: 13px 30px;
+            font-size: $h4;
+          }
+        }
+        
+        h5.category {
+          font-size: $h5;
+          color: $secondary;
+          font-weight: bold;
+          margin-bottom: 13px !important;
+        }
+
+        h3.name {
+          font-size: $h1;
+          color: $primary;
+          font-weight: bold;
+          margin-bottom: 13px !important;
+        }
+
+        h1.price {
+          font-size: $h3;
+          color: $secondary;
+          font-weight: normal;
+        }
+      }
+
+      div.noproducts {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $h3;
+        color: $secondary;
+      }
+    }
+  }
+}
+
+@media (min-width: 425px) {
+  div.productlist {
+    div.list {
+      display: flex;
+      justify-content: safe;
+      flex-wrap: wrap;
+      margin-bottom: 100px;
+
+      div.item {
+        margin-bottom: 50px;
+
+        div.image {
+          height: 400px;
+          width: 308px;
+          position: relative;
+          margin-bottom: 15px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            height: 400px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+          }
+
+          div.bestseller {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 120px;
+            height: 30px;
+            background-color: $white;
+            color: $primary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          button.addToCart {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            border: none;
+            background-color: $primary;
+            color: $white;
+            padding: 13px 30px;
+            font-size: $h4;
+          }
+        }
+        
+        h5.category {
+          font-size: $h5;
+          color: $secondary;
+          font-weight: bold;
+          margin-bottom: 5px !important;
+        }
+
+        h3.name {
+          font-size: $h1;
+          color: $primary;
+          font-weight: bold;
+          margin-bottom: 5px !important;
+        }
+
+        h1.price {
+          font-size: $h3;
+          color: $secondary;
+          font-weight: normal;
+        }
+      }
+
+      div.noproducts {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $h3;
+        color: $secondary;
+      }
+    }
+  }
+}

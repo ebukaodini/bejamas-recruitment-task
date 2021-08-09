@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
+
+p, h1, h2, h3, h4, h5, h6, hr, body, ul, li {
+  margin: 0px !important; padding: 0px !important;
+}
+
+body {
+  font-family: 'Archivo', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
