@@ -25,7 +25,7 @@ class FeaturedProduct extends Component {
             </div>
 
             <div className='image'>
-              <img src={`${pexelsBaseUrl}${this.state.featured.image.src}`} alt={this.state.featured.image.alt} />
+              <img src={`${pexelsBaseUrl}${this.state.featured.image.src}`} alt={this.state.featured.image.alt} loading='eager' />
               <div className='label'>Photo of the day</div>
             </div>
 
@@ -50,7 +50,7 @@ class FeaturedProduct extends Component {
                       this.state.featured.details.recommendations &&
                       this.state.featured.details.recommendations.map((item, index) => (
                         <div key={index}>
-                          <img src={`${pexelsBaseUrl}${item.src}`} alt={item.alt} />
+                          <img src={`${pexelsBaseUrl}${item.src}`} alt={item.alt} loading='lazy' />
                         </div>
                       ))
                     }

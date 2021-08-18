@@ -32,7 +32,7 @@ class ProductList extends Component {
                 this.state.productList.slice(((this.state.currentPage - 1) * this.state.pageLimit), (this.state.pageLimit * this.state.currentPage)).map((item, index) => (
                   <div key={index} className='item col-md-4 col-12'>
                     <div className='image'>
-                      <img src={`${pexelsBaseUrl}${item.image.src}`} alt={item.image.alt} />
+                      <img src={`${pexelsBaseUrl}${item.image.src}`} alt={item.image.alt} loading='lazy' />
 
                       {
                         item.bestseller &&

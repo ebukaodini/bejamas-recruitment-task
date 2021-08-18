@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import 'firebase/auth'
 import 'firebase/database'
 import seedDb from '../../utils/products.json';
 import Nav from './nav/nav';
 import Loading from './loading/loading';
-import FeaturedProduct from './featured/featured';
 import { FirebaseContext } from '../../context/firebase';
 import Sort from './sort/sort';
 import Filter from './filter/filter';
-import ProductList from './productlist/productlist';
+
+const FeaturedProduct = React.lazy(() => import('./featured/featured'));
+const ProductList = React.lazy(() => import('./productlist/productlist'));
 
 class Home extends Component {
   static contextType = FirebaseContext;
@@ -320,8 +321,9 @@ class Home extends Component {
 
               <Nav cart={this.state.cart} showCart={this.state.showCart} removeFromCart={this.removeFromCart} clearCart={this.clearCart} toggleCart={this.toggleCart} ></Nav>
 
-              <FeaturedProduct featured={this.state.featuredProduct} addToCart={this.addToCart}></FeaturedProduct>
-
+              <Suspense fallback={<Loading></Loading>}>
+                <FeaturedProduct featured={this.state.featuredProduct} addToCart={this.addToCart}></FeaturedProduct>
+              </Suspense>
               <Sort orderProductList={this.orderProductList} sortProductList={this.sortProductList} sortingType={this.state.sortingType} toggleFilterModal={this.toggleFilterModal}></Sort>
 
               <section className='container'>
@@ -329,7 +331,9 @@ class Home extends Component {
 
                   <Filter clearFilters={this.clearFilters} toggleFilterModal={this.toggleFilterModal} showFilterModal={this.state.showFilterModal} productCategories={this.state.productCategories} productPriceRanges={this.state.productPriceRanges} filterByCategories={this.state.filterByCategories} filterByPriceRange={this.state.filterByPriceRange} filterProductsByCategory={this.filterProductsByCategory} filterProductsByPriceRange={this.filterProductsByPriceRange}></Filter>
 
-                  <ProductList productList={this.state.productList} addToCart={this.addToCart} pageOffset={this.state.pageOffset} pageLimit={this.state.pageLimit} pageCount={this.state.pageCount} currentPage={this.state.currentPage} goToNextPage={this.goToNextPage} goToPreviousPage={this.goToPreviousPage} ></ProductList>
+                  <Suspense fallback={<Loading></Loading>}>
+                    <ProductList productList={this.state.productList} addToCart={this.addToCart} pageOffset={this.state.pageOffset} pageLimit={this.state.pageLimit} pageCount={this.state.pageCount} currentPage={this.state.currentPage} goToNextPage={this.goToNextPage} goToPreviousPage={this.goToPreviousPage} ></ProductList>
+                  </Suspense>
 
                 </div>
               </section>

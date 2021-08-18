@@ -3,6 +3,7 @@ import Home from './components/home/home';
 import 'bootstrap/dist/css/bootstrap.css'
 import { FirebaseProvider } from './context/firebase';
 import firebaseApp from './utils/firebase';
+import React from 'react';
 
 function App() {
 
