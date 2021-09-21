@@ -1,0 +1,44 @@
+# Production context:
+# All deploys from the main repository branch
+# will inherit these settings.
+[context.production]
+  command = "npm run build"
+  [context.production.environment]
+    ACCESS_TOKEN = "super secret"
+    # REACT ENV VARIABLES
+    REACT_APP_FIREBASE_APIKEY=AIzaSyDdJdwoUslnFUXTpe882rRRSgOzNq81Ukw
+    REACT_APP_FIREBASE_AUTHDOMAIN=bejamas-recruitment-task.firebaseapp.com
+    REACT_APP_FIREBASE_PROJECTID=bejamas-recruitment-task
+    REACT_APP_FIREBASE_STORAGE_BUCKET=bejamas-recruitment-task.appspot.com
+    REACT_APP_FIREBASE_MESSAGING_SENDERID=34125591500
+    REACT_APP_FIREBASE_APPID=1:34125591500:web:8a987ddabeb95a83ebe369
+    REACT_APP_FIREBASE_MEASUREMENTID=G-GEGLQEYTW3
+    REACT_APP_FIREBASE_DATABASEURL=https://bejamas-recruitment-task-default-rtdb.europe-west1.firebasedatabase.app/
+    REACT_APP_FIREBASE_AUTH_EMAIL=app@bejamas-recruitment-app.dev
+    REACT_APP_FIREBASE_AUTH_PASSWORD=@ppBejamas_d6v
+
+  # Deploys from main branch run this plugin in the build.
+  # Plugins context requires double brackets.
+  [[context.production.plugins]]
+    package = "@netlify/plugin-sitemap"
+
+# Deploy Preview context:
+# All deploys generated from a pull/merge request
+# will inherit these settings.
+[context.deploy-preview.environment]
+  ACCESS_TOKEN = "not so secret"
+
+# Branch deploy context:
+# All deploys that are not from a pull/merge request
+# or from the production branch will inherit these settings.
+[context.branch-deploy]
+  command = "make staging"
+
+# Specific branch context:
+# Deploys from this branch will take these settings
+# and override their current ones.
+[context.feature]
+  command = "make feature"
+
+[context."features/branch"]
+  command = "gulp"
