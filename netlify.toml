@@ -1,17 +1,17 @@
 # Production context:
 # All deploys from the main repository branch
 # will inherit these settings.
-[build.production]
+[context.production]
   command = "npm run build"
-  [build.production.environment]
+  [context.production.environment]
     # REACT ENV VARIABLES
-    REACT_APP_FIREBASE_APIKEY=AIzaSyDdJdwoUslnFUXTpe882rRRSgOzNq81Ukw
-    REACT_APP_FIREBASE_AUTHDOMAIN=bejamas-recruitment-task.firebaseapp.com
-    REACT_APP_FIREBASE_PROJECTID=bejamas-recruitment-task
-    REACT_APP_FIREBASE_STORAGE_BUCKET=bejamas-recruitment-task.appspot.com
-    REACT_APP_FIREBASE_MESSAGING_SENDERID=34125591500
-    REACT_APP_FIREBASE_APPID=1:34125591500:web:8a987ddabeb95a83ebe369
-    REACT_APP_FIREBASE_MEASUREMENTID=G-GEGLQEYTW3
-    REACT_APP_FIREBASE_DATABASEURL=https://bejamas-recruitment-task-default-rtdb.europe-west1.firebasedatabase.app/
-    REACT_APP_FIREBASE_AUTH_EMAIL=app@bejamas-recruitment-app.dev
-    REACT_APP_FIREBASE_AUTH_PASSWORD=@ppBejamas_d6v
+    REACT_APP_FIREBASE_APIKEY = "AIzaSyDdJdwoUslnFUXTpe882rRRSgOzNq81Ukw"
+    REACT_APP_FIREBASE_AUTHDOMAIN = "bejamas-recruitment-task.firebaseapp.com"
+    REACT_APP_FIREBASE_PROJECTID = "bejamas-recruitment-task"
+    REACT_APP_FIREBASE_STORAGE_BUCKET = "bejamas-recruitment-task.appspot.com"
+    REACT_APP_FIREBASE_MESSAGING_SENDERID = "34125591500"
+    REACT_APP_FIREBASE_APPID = "1:34125591500:web:8a987ddabeb95a83ebe369"
+    REACT_APP_FIREBASE_MEASUREMENTID = "G-GEGLQEYTW3"
+    REACT_APP_FIREBASE_DATABASEURL = "https://bejamas-recruitment-task-default-rtdb.europe-west1.firebasedatabase.app/"
+    REACT_APP_FIREBASE_AUTH_EMAIL = "app@bejamas-recruitment-app.dev"
+    REACT_APP_FIREBASE_AUTH_PASSWORD = "@ppBejamas_d6v"
