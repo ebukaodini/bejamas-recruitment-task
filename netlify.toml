@@ -22,6 +22,8 @@
 [context.production]
 [context.production.environment]
   # REACT ENV VARIABLES
+  NODE_VERSION = "7.13.0"
+  NODE_ENV = "production"
   REACT_APP_FIREBASE_APIKEY = "AIzaSyDdJdwoUslnFUXTpe882rRRSgOzNq81Ukw"
   REACT_APP_FIREBASE_AUTHDOMAIN = "bejamas-recruitment-task.firebaseapp.com"
   REACT_APP_FIREBASE_PROJECTID = "bejamas-recruitment-task"
