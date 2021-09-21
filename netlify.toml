@@ -4,7 +4,6 @@
 [context.production]
   command = "npm run build"
   [context.production.environment]
-    ACCESS_TOKEN = "super secret"
     # REACT ENV VARIABLES
     REACT_APP_FIREBASE_APIKEY=AIzaSyDdJdwoUslnFUXTpe882rRRSgOzNq81Ukw
     REACT_APP_FIREBASE_AUTHDOMAIN=bejamas-recruitment-task.firebaseapp.com
